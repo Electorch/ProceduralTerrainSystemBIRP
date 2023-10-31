@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5863582089349162677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5863582089349162675}
+  - component: {fileID: 5863582089349162674}
+  m_Layer: 0
+  m_Name: ObjectSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5863582089349162675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5863582089349162677}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5863582089349162674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5863582089349162677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb0c507e03a07b4eb423a9e67ead705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  algueaPrefab:
+  - {fileID: 4211572165657408205, guid: 37adaca97afc86340b9ca3b74a07d1c1, type: 3}
+  - {fileID: 362323500154467279, guid: e474c3025539a7e4dbf6ef6f440f573f, type: 3}
+  - {fileID: 7002694445421447545, guid: fa0a0b67a7089c746bd13a39f8628843, type: 3}
+  grassPrefab:
+  - {fileID: 1058268421714727890, guid: 7e9f144b94996da4e876f736d6a9cf8f, type: 3}
+  - {fileID: 5260813276552114304, guid: 266aac4835483144da9b30b80d1f5847, type: 3}
+  - {fileID: 282849461244595658, guid: 9b6e2c7b91368d44187710f764118f49, type: 3}
+  rockPrefab:
+  - {fileID: 1850758389519987968, guid: 2c471ff5fdfb419439db5e421de0fa7a, type: 3}
+  - {fileID: 7369378151221878925, guid: 741772376b8c44441a8122b2b1d78718, type: 3}
+  - {fileID: 4233801377798851168, guid: da657c9ec628e4e41b12aeaa653ed24b, type: 3}
+  - {fileID: 9181335536639483752, guid: 25c1e3c00e6569f41bfe2c0dd29b2694, type: 3}
+  - {fileID: 932000341250313749, guid: bd7ed1b7530fbd240bb765264510f929, type: 3}
+  - {fileID: 901927247110213316, guid: 0e1e25e6b58976e40a603b367bf592f1, type: 3}
+  - {fileID: 2137780849825431434, guid: aa8f5ecbadc89a9428661fa18546a380, type: 3}
+  treePrefab:
+  - {fileID: 1270704912136948436, guid: 9fe85442330ee2c45bd24469114f2ea6, type: 3}
+  - {fileID: 8541934067092593997, guid: 90c2a5c2e5b85c64eafca4a57a84efe8, type: 3}
+  deadTreePrefab:
+  - {fileID: 824123687396858443, guid: 5d219f720718b9345b9a75a33131ecbd, type: 3}
+  nbrOfAlguea: 200
+  nbrOfGrass: 200
+  nbrOfRock: 750
+  nbrOfTreeTotal: 1500
+  nbrOfTree: 80
+  nbrOfDeadTree: 25
+  terrainRange: 500
+  grassSpawner: {fileID: 7410490109370554567, guid: ed0b10722d4cc7747a53300c2e0fd8f1, type: 3}
+  brushSize: 18
+  lookupCollider: {fileID: 0}
+  forestHeight:
+  - 0
+  - 0
+  - 0
+  forestLayer: 4
+  getIt: 0
+  spawnTree: 0
